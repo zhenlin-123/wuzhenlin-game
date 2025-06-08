@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuzhenlin Game - Play Monster Survivors Online!</title>
+    <meta name="description" content="Experience the thrilling Wuzhenlin Game: Monster Survivors! Play this exciting online game directly in your browser. Survive endless waves of monsters in this action-packed adventure.">
+    <link rel="canonical" href="https://wuzhenlin.shop/">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Apple-like color palette */
+        :root {
+            --color-primary: #007AFF; /* Apple Blue */
+            --color-secondary: #5856D6; /* Apple Violet */
+            --color-light-gray: #F5F5F7; /* Apple Light Gray */
+            --color-dark-gray: #1D1D1F; /* Apple Dark Gray */
+            --color-text-body: #3C3C43; /* Apple Text Body */
+            --color-highlight: #FF9500; /* Apple Orange for highlights */
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: var(--color-text-body);
+            background-color: var(--color-light-gray);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--color-dark-gray);
+            font-weight: 700;
+        }
+
+        .header-bg {
+            background-color: var(--color-dark-gray);
+            color: var(--color-light-gray);
+        }
+
+        .btn-primary {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--color-secondary);
+        }
+
+        .game-iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            background-color: #000; /* Black background for iframe loading */
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .game-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .section-padding {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .section-padding {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+            .header-bg {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+            .game-iframe-container {
+                padding-bottom: 75%; /* More suitable for mobile vertical aspect */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header-bg py-6 shadow-md">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">Wuzhenlin Game: Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-gray-300">Unleash the ultimate survival challenge online!</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+
+        <section class="section-padding text-center">
+            <h2 class="text-3xl font-bold mb-6">Play Wuzhenlin Game Now!</h2>
+            <p class="mb-8 text-lg max-w-2xl mx-auto">Immerse yourself in the action-packed world of Monster Survivors. Prepare for relentless waves of enemies and test your strategic skills.</p>
+            <div class="game-iframe-container mx-auto max-w-4xl">
+                <iframe
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    loading="lazy"
+                    allowfullscreen
+                    sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+                    title="Wuzhenlin Game: Monster Survivors Online"
+                ></iframe>
+            </div>
+            <p class="mt-8 text-md text-gray-600">Having trouble loading the game? Ensure your browser is up-to-date and disable any ad-blockers.</p>
+        </section>
+
+        <section class="section-padding">
+            <h2 class="text-3xl font-bold mb-6 text-center">About Wuzhenlin Game: Monster Survivors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="mb-4 text-lg">
+                        The **Wuzhenlin Game** introduces "Monster Survivors," a thrilling online experience designed for players who love intense action and strategic combat. In this game, your primary objective is to survive against an endless onslaught of diverse and increasingly powerful monsters.
+                    </p>
+                    <p class="mb-4 text-lg">
+                        As you defeat enemies, you'll earn experience and unlock powerful upgrades, skills, and new characters, each with unique abilities. The game offers a dynamic progression system, ensuring that every playthrough feels fresh and challenging.
+                    </p>
+                    <p class="text-lg">
+                        Whether you're a casual gamer looking for quick fun or a hardcore survivor aiming for the top of the leaderboards, Monster Survivors provides a deeply engaging and rewarding experience. Its intuitive controls and compelling gameplay make it accessible yet challenging.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/600x400/007AFF/FFFFFF?text=Wuzhenlin+Game+Screenshot" alt="Wuzhenlin Game Gameplay Screenshot" class="rounded-lg shadow-lg w-full">
+                    <p class="text-center text-sm text-gray-500 mt-2">Example of in-game action from Monster Survivors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding bg-white rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold mb-8 text-center">Key Features of Monster Survivors</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/80x80/007AFF/FFFFFF?text=🎮" alt="Endless Waves Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Endless Monster Waves</h3>
+                    <p>Confront continuous waves of unique monsters, each presenting new challenges and requiring adaptive strategies.</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/80x80/007AFF/FFFFFF?text=✨" alt="Upgrade System Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Dynamic Upgrade System</h3>
+                    <p>Collect experience, unlock powerful skills, and upgrade your character to become an unstoppable force.</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm">
+                    <img src="https://via.placeholder.com/80x80/007AFF/FFFFFF?text=🕹️" alt="Browser Play Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Seamless Online Play</h3>
+                    <p>Enjoy the full game experience directly in your browser, no downloads or installations required.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Face the Challenge?</h2>
+            <p class="mb-8 text-lg max-w-2xl mx-auto">Join thousands of players already battling for survival. Click below to start your adventure in the Wuzhenlin Game: Monster Survivors!</p>
+            <a href="#game-iframe-section" class="btn-primary text-xl font-semibold inline-block">Start Playing Now!</a>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Wuzhenlin Game. All rights reserved.</p>
+            <p class="mt-2 text-sm">Powered by Wuzhenlin Games. For support, contact us at info@wuzhenlin.shop</p>
+        </div>
+    </footer>
+</body>
+</html>
